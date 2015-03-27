@@ -3,8 +3,24 @@
 	text-align:center;
 }
 body{
-	margin-top:60px
+	margin-top:60px;
 }
+
+
+.bg {
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  /* Set up positioning */
+  /* またはabsolute; */
+  top: 0;
+  left: 0;
+}
+
+
+
+
 
 
 #top
