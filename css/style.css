@@ -1,7 +1,8 @@
 .view {
 
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
+
     margin: 10px;
     float: left;
     border: 10px solid #fff;
@@ -12,14 +13,16 @@
     cursor: default;
 }
 .view .mask, .view .content {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 100%;
+    margin:auto auto;
     position: absolute;
     overflow: hidden;
     top: 0;
     left: 0;
 }
 .view img {
+    margin : 0 auto;
     display: block;
     position: absolute;
 }
@@ -28,15 +31,15 @@
     color: #fff;
     text-align: center;
     position: relative;
-    font-size: 17px;
+    font-size: 25px;
     padding: 10px;
     background: rgba(0, 0, 0, 0.8);
     margin: 20px 0 0 0
 }
 .view p {
-    font-family: Georgia, serif;
-    font-style: italic;
-    font-size: 12px;
+/*    font-family: Georgia, serif;  */
+/*  font-style: italic; */
+    font-size: 20px;
     position: relative;
     color: #fff;
     padding: 10px 20px 20px;
@@ -125,6 +128,12 @@ body{
   left: 0;
 }
 
+p
+{
+
+    font-size: 20px;
+
+}
 
 
 

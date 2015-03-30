@@ -5,7 +5,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Team IcARus</title>
-
 <link href="css/bootstrap.css" rel="stylesheet">
 <!--[if lt IE 9]>
                          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -14,18 +13,21 @@
 
 <link rel="stylesheet" href="css/jquery.remodal.css">
 <link rel="stylesheet" href="css/style.css">
-
+<link rel="stylesheet" href="css/jquery.bxslider.css">
 </head>
 <body>
+
 <script src="js/jquery-2.1.3.min.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/jquery.remodal.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+
 <nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container">
 		<div class="navbar-header ">
 			<button type="button" class="navbar-toggle"
           data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-			<a class="navbar-brand" href="/"> Team IcARus </a> </div>
+			<a class="navbar-brand" href="#top"> Team IcARus </a> </div>
 		<div class="navbar-collapse collapse ">
 			<ul class="nav navbar-nav">
 				<!--nav右  -->
@@ -47,43 +49,328 @@
 		<div class="row">
 			<div class="col-md-11">
 				<h1 >Team IcARus</h1>
-				<p> </p>
+				<h3> Team IcARusは、年代を越えて集まった、次世代を見据えたエンジニアチームです。</h3>
 			</div>
 		</div>
 	</div>
 </section>
+<h3 class="text-right"> 空を飛びたいと思ったことはありませんか…？</h3>
 <img src="./img/sky.jpg" alt="BLUE SKYE" class="img-responsive img-responsive-overwrite bg">
 <section class="container-fluid" id="about">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-11">
-				<h1 >ABOUT</h1>
-				<p> </p>
+				<h1 class="text-center" >ABOUT</h1>
+				<div id="whatsicarus">
+					<h1> What's IcARus? </h1>
+					<p> ここでチームの説明をするよ</p>
+				</div>
+
+				<div id ="product">
+					<h1> Product </h1>
+					<div>
+						<h2> Drone Space Defense</h2>
+						<p>HMDとDroneを使った次世代型エンターテイメントシステム。<br>
+						<br>
+						今までの「常識」の打破と革命を目指した、次世代のエンターテイメントシステムであると同時にHMDやDroneの今後の普及を見据えた、Team IcARusのメインプロジェクトである。</p>
+					</div>
+
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<div class="container">
-	<div class="row">
-		<div class="col-md-11">
-			<h1 >MEMBER</h1>
-			<p> <a href="#modal">Call the modal with data-remodal-id="modal"</a> </p>
-			<div class="view view-first img-responsive"> <img src="images/1.jpg" class="img-responsive">
-				<div class="mask">
-					<h2>Title</h2>
-					<p>Your Text</p>
-					<a href="#" class="info">Read More</a> </div>
+<section class="container-fluid" id="member">
+<h1 class="text-center">MEMBER</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-4 col-md-3">
+				<div class="view view-first img-responsive" id="view"> <img src="img/murashita.jpg" class="img-responsive">
+					<div class="mask">
+						<h2>村下 熙</h2>
+						<p>Hiroki Murashita</p>
+						<a href="#modal-1" class="info">View More</a> </div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3">
+				<div class="view view-first img-responsive"> <img src="img/ushiro.jpg" class="img-responsive">
+					<div class="mask">
+						<h2>後 雄大</h2>
+						<p>Yudai Ushiro</p>
+						<a href="#modal-2" class="info">View More</a> </div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3">
+				<div class="view view-first img-responsive"> <img src="img/demura.jpg" class="img-responsive">
+					<div class="mask">
+						<h2>出村 賢聖</h2>
+						<p>Kensei Demura</p>
+						<a href="#modal-3" class="info">View More</a> </div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3">
+				<div class="view view-first img-responsive"> <img src="img/hasegawa.jpg" class="img-responsive">
+					<div class="mask">
+						<h2>長谷川 陸央</h2>
+						<p>Rikuo Hasegawa</p>
+						<a href="#modal-4" class="info">View More</a> </div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3">
+				<div class="view view-first img-responsive"> <img src="img/sumi.jpg" class="img-responsive">
+					<div class="mask">
+						<h2>角 拓夢</h2>
+						<p>Takumu sumi</p>
+						<a href="#modal-5" class="info">View More</a> </div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3">
+				<div class="view view-first img-responsive"> <img src="img/kameishi.jpg" class="img-responsive">
+					<div class="mask">
+						<h2>亀石 成人</h2>
+						<p>Narito Kameishi</p>
+						<a href="#modal-6" class="info">View More</a> </div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3">
+				<div class="view view-first img-responsive"> <img src="img/tsuneya.jpg" class="img-responsive">
+					<div class="mask">
+						<h2>常谷 健人</h2>
+						<p>Kenta Tsuneya</p>
+						<a href="#modal-7" class="info">View More</a> </div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3">
+				<div class="view view-first img-responsive"> <img src="img/adaniya.jpg" class="img-responsive">
+					<div class="mask">
+						<h2>安谷屋 樹</h2>
+						<p>Tatsuki Adaniya</p>
+						<a href="#modal-8" class="info">View More</a> </div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3">
+				<div class="view view-first img-responsive"> <img src="img/mizuhashi.png" class="img-responsive">
+					<div class="mask">
+						<h2>水橋　大瑶</h2>
+						<p>Taiyo Mizuhashi</p>
+						<a href="#modal-9" class="info">View More</a> </div>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<!-- ここからmodalのcontent -->
-
-<section class="container-fluid" id="member">
-	<div class="remodal" data-remodal-id="modal">
-		<h1>Remodal</h1>
-		<p> Flat, responsive, lightweight, fast, easy customizable modal window plugin
-			with declarative state notation and hash tracking. </p>
+	<!-- ここからmodalのcontent --> 
+	
+	<!-- -->
+	<div class="remodal" data-remodal-id="modal-1">
+		<h1>村下 照</h1>
+		<p > 東京大学 工学部 計数工学科 新3年<br>
+			サークル 東大企業サークルZero×One<br>
+			C-school講師<br>
+			<br>
+			プログラミングC/C++ (ruby , java少し)<br>
+			マイコン arduino/arduinoADK (pic 少し)<br>
+			センサー  GPS,磁気方位センサーなど<br>
+			アプリ開発  (android少し)<br>
+			<br>
+			去年の夏にarduinoを使った自動操縦のオーロラ撮影船を設計製作する。<br>
+			<br>
+			カフェで開かれる個別指導塾のc.schoolで数学の講師を勤める中で教え子の中学1年生の少年の影響で飛行機に興味を持ち、冬からインドアプレーンの自作に取り組み始める。<br>
+			そんな中知り合いからoculusの開発コンテストに誘われる。<br>
+			中1の生徒と参加し、「ラジコン飛行機とoculusで本物さながらの空中戦をする」というプロジェクトを立ち上げる。<br>
+			その際会場で現在のチームIcARusのメンバーの多くと出会う。<br>
+			<br>
+			その後チームの主軸はDroneに変更となるが<br>
+			自分自身は固定翼飛行機で空中戦をするという当初の中1の少年と思い描いた方向を模索している。<br>
+			現在はカメラを乗せて低速飛行ができるような超軽量バルサ製のスケール機の製作を進めている。<br>
+			<br>
+			ものつくりは昔から好きでしたが作りたいものがあっても知識が追い付かないことが多く諦めていたものが多かったです。しかし大学生になり今まで諦めていたものがそれほど遠い存在ではないような気がして去年の夏から再びなにかを作ってみたいと主な強く思うようになり、実際に行動して「新しいもの」を自分に求める気持ちが今までになくに高まっています。<br>
+			<br>
+		</p>
+		<br />
+		<a class="remodal-confirm" href="#">OK</a> </div>
+	
+	<!-- -->
+	<div class="remodal" data-remodal-id="modal-2">
+		<h1>後 雄大</h1>
+		<p> <br>
+			早稲田大学先進理工学部電気情報生命工学科4年<br>
+			<br>
+			2015年2月より株式会社nowall勤務　railsエンジニア<br>
+			<br>
+			スキル HTML, CSS, javascript, ruby, ruby on rails, unity <br>
+			<br>
+			株式会社nowallではプログラミング学習サービスを開発しています。<br>
+			<br>
+			また、世界に通用するプロダクトの開発を目指す、東京大学エンジニアサークルzeroxoneの代表を務めています。<br>
+		</p>
+		<br />
+		<a class="remodal-confirm" href="#">OK</a> </div>
+	
+	<!-- -->
+	<div class="remodal" data-remodal-id="modal-3">
+		<h1>出村 賢聖</h1>
+		<p> 石川県立金沢泉丘高等学校理数科２年（４月から関東に移ります） <br>
+			NII(国立情報学研究所) SIGVerse Project Developer <br>
+			D.K.T. President (http://dkt.jpn.org) <br>
+			<br>
+			<br>
+			詳しい経歴
+			:https://www.wantedly.com/users/6190668 <br>
+			スキル<br>
+			ロボット開発,組み込みシステム開発、コンピュータネットワーク・セキュリティ、画像処理、３D設計/モデリング、３Dプリンティング、CNC加工、 2D設計、WEBアプリ開発、オブジェクト指向開発、Linux/UNIX、プレゼン、ICT・ロボティクス教育、PM、英語コミュニケーション（技術発表・プレゼン、ロボットの国際会議で発言したり、スピーチ等） <br>
+			プログラミング言語<br>
+			C/C++で開発中心, bash/shでスクリプト製作中心,  ARMアセンブラ, JavaScript, HTML/XML ,CSS/Sass, python, batchfile,haskell初心者, phpノービス <br>
+			フレームワーク<br>
+			ROS(Robot Operating System), OpenCV, jQuery, AngularJS, Apache Cordova, Choregraphe, CMAKE, Unity初心者 <br>
+			ロボット開発<br>
+			PIC開発ボードの自作ロボット、Arduino自作ロボット、Turtlebot,Softbank Pepper <br>
+			組み込み<br>
+			Arduino, Raspberry Pi,ARMプロセッサのアーキテクチャとアセンブリ命令,Intel Edison, NVIDIA Jetson TK1, PIC, Parallex Propeller <br>
+			<br>
+			当初はHMDのアプリケーションでロボットの学習データ集めをするためこのプロジェクトに参加したのですが、最近UAVの面白さがわかってきました！ <br>
+			UAVはロボティクスとかなり共通する部分があります！ <br>
+			<br>
+			画像処理、ドローンのソフトウエアインフラ、３Dモデリング等をしていきたいと思います。 <br>
+		</p>
+		<br />
+		<a class="remodal-confirm" href="#">OK</a> </div>
+	
+	<!-- -->
+	<div class="remodal" data-remodal-id="modal-4">
+		<h1>長谷川 陸央</h1>
+		<p> <br>
+			都立国際高校2年　<br>
+			Salon du Japon（仮）　マネージャー（仮）<br>
+			英検１級<br>
+			<br>
+			<br>
+			起業はアメリカから引っ越す直前に「スケートボード会社」を友人と立ち上げようと話したことがきっかけ。<br>
+			高校1年生のときは無駄に使ってしまうが、'14年の2月ごろからまた起業へ興味を。<br>
+			<br>
+			プログラミングも4月頃から始め、基礎的なことの勉強をちょこちょこと行っています。<br>
+			PHP/jsでの簡単なゲーム自作/C++/C#、Webのフロント開発の勉強（フレームワークなど禁止状態で・・・）などをしてきました。<br>
+			最近はArduinoやRaspberry Piとかを使ったハードウェアなどを使って実際の物理的世界へ目に見える影響が出ることに興味が沸いています。<br>
+			<br>
+			<br>
+			軽い経歴としては、<br>
+			アメリカで生まれ、デトロイト郊外で育ち、ゆっとりと原っぱでサバゲーや焚き火、爆弾を作ったりして遊んでました。<br>
+			中学生のころから友人とコミュニティーサイトみたいのを作ったりしたり、挫折しまくる・・・<br>
+			高校に入ってマーチングバンドでMacy'sParadeに参加し、州大会では惜しくも2位をとって、<br>
+			自由に身になった後は知人とツリーハウスを作り、喜び、喧嘩し、1ヶ月以内に放火して文字通り炎上してしまうと。<br>
+			日本に来て、静岡の平和に飲まれ、東京に来ては全体的に絶望し、グレて、今に至る。と。<br>
+			あまり技術的な話はできないですが世間話は少し盛り上がるという典型的な凡人タイプです。<br>
+			<br>
+		</p>
+		<br />
+		<a class="remodal-confirm" href="#">OK</a> </div>
+	
+	<!-- -->
+	<div class="remodal" data-remodal-id="modal-5">
+		<h1>角 拓夢</h1>
+		<p> 都立国際高校2年　
+		<p> <br>
+			略歴：<br>
+			①中央大学（化学専攻）兼  産業総合研究所（ナノテク部門）<br>
+			②東京大学大学院（物理化学専攻）兼  理化学研究所（材料科学部門）　<br>
+			③Maverick.,inc (adtech企業に所属)<br>
+			<br>
+			プログラマーではありませんが、個人的に電子工作や作製したデバイスのセンサーからの取得情報のR使った分析などの経験はあります。<br>
+			また、Jsは軽くできます。<br>
+			<br>
+			ただ、参画させて頂いた場合は、技術的な面より、発表・資料作成など、運営周りやユーザー目線でフィードバックさせていただく等でお力に慣れれば、ぜひ協力させていただきたいと思っています！ <br>
+		</p>
+		<br />
+		<a class="remodal-confirm" href="#">OK</a> </div>
+	
+	<!-- -->
+	<div class="remodal" data-remodal-id="modal-6">
+		<h1>亀石 成人</h1>
+		<p><br>
+			略歴<br>
+			東海大学 理学部 数学科<br>
+			アクサス株式会社<br>
+			<br>
+			現在はPHPプログラマです。<br>
+			PHPに関連してくるDB、サーバ(特にLinux)、apacheは触っています。<br>
+			あとはクライアント側でJSなども…<br>
+			<br>
+			今回は主にサーバー周りの開発を担当<br>
+		</p>
+		<br />
+		<a class="remodal-confirm" href="#">OK</a> </div>
+	
+	<!-- -->
+	<div class="remodal" data-remodal-id="modal-7">
+		<h1>常谷 健人</h1>
+		<p><br>
+			専門学校HAL東京　ゲームデザイン学科卒<br>
+			2015年4月より都内ゲーム会社勤務　ゲームデザイナー<br>
+			<br>
+			使用ソフトウェア<br>
+			autodesk maya<br>
+			adobe photoshop / illustlator / aftereffects / premiere<br>
+			<br>
+			スキル<br>
+			ゲームビジュアルコンセプトデザイン / キャラクターデザイン /3Dモデリング<br>
+			キャラクターアニメーション / アニメーションセットアップ<br>
+			ゲームデザイン(ゲームプランニング) / その他ビジュアルデザインに掛かること<br>
+			<br>
+			専門学校で４年間ゲーム作りの下積みをしてきました。今春からはゲームデザイナーです。<br>
+			下請けでの3Dゲームモデルの制作経験有り。就職に先駆けてプロとして仕事を頂きました。<br>
+			ゲームの企画コンセプトとビジュアルのバランスを大切にしながらデザインを手がけるのがモットーです。<br>
+		</p>
+		<br />
+		<a class="remodal-confirm" href="#">OK</a> </div>
+	
+	<!-- -->
+	<div class="remodal" data-remodal-id="modal-8">
+		<h1>安谷屋 樹</h1>
+		<p> ・学部時代に起業経験あり <br>
+			・スタンフォード大学留学中<br>
+			・Facebook Oculus本社インターン<br>
+			・テレイグジステンスデバイス<br>
+			・拡張現実の研究開発<br>
+			・トビタテ!留学JAPAN 第一期生 登壇<br>
+		</p>
+		<br />
+		<a class="remodal-confirm" href="#">OK</a> </div>
+	
+	<!-- Taiyo Mizuhashi-->
+	<div class="remodal" data-remodal-id="modal-9">
+		<h1>水橋　大瑶</h1>
+		<p> 長野県 の 中学３年<br>
+			Cludot. Inc 所属<br>
+			Tech & Logics 所属<br>
+			筑波大学GFESTサイエンストップリーダー<br>
+			基本情報技術者<br>
+			<br>
+			・プログラミング<br>
+			C / C++ / C# / NXC (Mindstorms)/ Python / unity / Swift / HTML / CSS / Javascript / jQuery / PHP / Linux<br>
+			・3DCG<br>
+			blender / unity / Maya / 3ds Max　その他<br>
+			・メディア アート関連<br>
+			Adobe After Effects / Adobe Premiere  /  Fusion / Aviutl / NicoVisualEffects /<br>
+			・ロボット<br>
+			Mindstorms NXT/EV3<br>
+			・組み込み<br>
+			Intel Edison / arduino / (Raspberry pi)<br>
+			<br>
+			長野住みということもあって、ネットから得られる情報のみで興味本位でプログラミングをガラパゴス的に勉強する。<br>
+			情報オリンピックを一ヶ月勉強して敢闘賞もらったり、基本情報技術者をなんとなく受けてみたり、ロボットをいじってみたり。<br>
+			筑波大学の人材育成プロジェクトGFESTで東京にでて、その情報量の多さやIT人口に驚愕し、地方がいかにITの面で遅れているかを思い知らされる。<br>
+			また最近そこで出会った本メンバーの出村 賢聖氏に出会い、覚醒する。<br>
+			<br>
+			最近は、iOS開発をしながらフロントエンドや組み込み、3DCGは継続、デザイン/アートをよくする。<br>
+			<br>
+			Cloudot IncにMac借りて奮闘中<br>
+			<br>
+			Tech系以外だと、音楽・数学な人<br>
+			IT格差の改善を行うべく東京と長野を往復しながら起業準備中…<br>
+			<br>
+			詳しい経歴はブログにて（←開発中…）<br>
+			<br>
+			<br>
+		</p>
 		<br />
 		<a class="remodal-confirm" href="#">OK</a> </div>
 	
@@ -94,8 +381,45 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-11">
-				<h1 >ACTIVITIES</h1>
-				<p> </p>
+				<h1 class="text-center">ACTIVITIES</h1>
+				<h3> ・bizJapan HMD開発コンテスト　に参加<br>
+					・skyland ventures submit(Peter Thiel講座)　に参加<br>
+					・スタートアップカンフェレンス2015　に参加<br>
+					・Techwave アプリ博　に出展<br>
+					・Maker Faire Bay Area に出展<br>
+				</h3>
+
+				<ul class="bxslider">
+  					<li><img src="img/0.jpg" title="" align="center"  /></li>
+  					<li><img src="img/1.jpg" title="" align="center"/></li>
+  					<li><img src="img/2.jpg" title="" align="center"/></li>
+  					<li><img src="img/3.jpg" title="" align="center"/></li>
+  					<li><img src="img/5.jpg" title="" align="center"/></li>
+  					<li><img src="img/7.jpg" title="" align="center"/></li>
+  					<li><img src="img/8.jpg" title="" align="center"/></li>
+  					<li><img src="img/9.jpg" title="" align="center"/></li>
+  					<li><img src="img/10.jpg" title="" align="center"/></li>
+  					<li><img src="img/11.jpg" title="" align="center"/></li>
+  					<li><img src="img/12.jpg" title="" align="center"/></li>
+  					<li><img src="img/14.jpg" title="" align="center"/></li>
+
+				</ul>
+
+
+
+
+			<center><script type="text/javascript">
+        		$(document).ready(function(){
+            	$('.bxslider').bxSlider({
+                auto: true,
+                pause:3000,
+                controls: true
+           	 });
+        	});
+			</script><!-- bxslider -->
+			</center>
+
+
 			</div>
 		</div>
 	</div>
@@ -104,7 +428,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-11">
-				<h1 >WHAT'S NEW?</h1>
+				<h1 class="text-center">WHAT'S NEW?</h1>
 				<p> </p>
 			</div>
 		</div>
@@ -114,11 +438,14 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-11">
-				<h1 >CONTACT</h1>
+				<h1 class="text-center">CONTACT</h1>
 				<p> </p>
 			</div>
 		</div>
 	</div>
 </section>
+
+<script src="js/main.js"></script>
+
 </body>
 </html>

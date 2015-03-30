@@ -319,3 +319,12 @@ body.remodal-is-active .remodal {
 .lt-ie9 .remodal-close:active.remodal-close:after {
     color: #3e5368;
 }
+
+
+
+
+/*  Added by Taiyo Mizuhashi */
+
+.remodal p {
+    text-align: left;
+}
