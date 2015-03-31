@@ -8,4 +8,9 @@ $(function() {
 		var _width = $(".view").css("width"); 
 		$(".view").css("height",_width);
 	});
+
+
+
+
+
 });

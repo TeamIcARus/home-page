@@ -112,10 +112,6 @@
 {
 	text-align:center;
 }
-body{
-	margin-top:60px;
-}
-
 
 .bg {
 
@@ -126,6 +122,14 @@ body{
   /* またはabsolute; */
   top: 0;
   left: 0;
+}
+
+
+h1{
+
+margin-bottom: 25px;
+
+
 }
 
 p
