@@ -203,7 +203,7 @@ body.remodal-is-active .remodal {
 .remodal-close:after {
     font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
     font-size: 28px;
-    line-height: 28px;
+    line-height: 20px;
 
     display: block;
 
