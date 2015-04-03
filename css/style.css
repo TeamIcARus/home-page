@@ -136,7 +136,13 @@ p
 {
 
     font-size: 20px;
+    line-height: 150%;
 
+}
+
+.h3{
+
+    line-height: 1.5;
 }
 
 .container-fluid
@@ -158,6 +164,7 @@ hr.small-bar{
     margin: 15px auto;
     border-width: 4px;
     border-color: #000;
+    margin-bottom: 30px;
 
 
 
@@ -179,7 +186,7 @@ padding-top: 250px;
 {
     color: #FFF;
     margin: auto;
-    font-size: 27px;
+    font-size: 40px;
 
 }
 
@@ -195,6 +202,42 @@ padding-top: 250px;
 
 }
 
+sns a{
+
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.facebook{
+
+
+    background-color: rgba(60,85,157,1);
+}
+
+.mail{
+
+
+     background-color: rgba(240,0,0,1);
+}
+
+.github{
+
+
+     background-color: rgba(59,59,59,1);
+}
+
+
+.sns a img
+{
+
+    height: 100px;
+    width: 100px;
+}
+
+.title{
+    font-size:100px;
+}
 
 
 
