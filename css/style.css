@@ -57,6 +57,11 @@
     text-transform: uppercase;
     box-shadow: 0 0 1px #000
 }
+
+/*@media screen and (min-width:1024px){ */
+
+
+
 .view a.info:hover {
     box-shadow: 0 0 5px #000;
 
@@ -117,6 +122,11 @@
     transition-delay: 0.2s;
     -webkit-transition-delay: 0.2s;
 }
+
+
+
+
+
 
 
 
@@ -286,8 +296,8 @@ p{
 #product{
 
     border: solid 5px #FFFFFF;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 5%;
+    padding-left: 5%;
     padding-bottom: 100px;
 
 }
@@ -366,11 +376,11 @@ h1 {
 }
  
 @media screen and (min-width : 768px){
-    h1{ font-size : 14px;}
+    h1{ font-size : 70%;}
 }
  
 @media screen and (min-width : 1024px) {
-    h1{ font-size : 16px;} 
+    h1{ font-size : 80%;} 
 }
 
 
