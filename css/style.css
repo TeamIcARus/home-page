@@ -58,7 +58,8 @@
     box-shadow: 0 0 1px #000
 }
 
-/*@media screen and (min-width:1024px){ */
+
+
 
 
 
@@ -122,6 +123,8 @@
     transition-delay: 0.2s;
     -webkit-transition-delay: 0.2s;
 }
+
+
 
 
 
@@ -307,7 +310,7 @@ p{
 
     font-size: 50px;
     text-align: center;
-    margin: 50px;
+    margin: 5%;
 }
 
 
@@ -376,11 +379,11 @@ h1 {
 }
  
 @media screen and (min-width : 768px){
-    h1{ font-size : 70%;}
+    html{ font-size : 70%;}
 }
  
 @media screen and (min-width : 1024px) {
-    h1{ font-size : 80%;} 
+    html{ font-size : 80%;} 
 }
 
 
